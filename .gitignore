@@ -1,0 +1,36 @@
+# Ignore environment configuration files (contain sensitive API keys)
+.env
+.env.*
+credentials.json
+
+# Ignore workspace configurations
+workspace.code-workspace
+
+# Ignore audio, subtitle, and text files (from transcription process)
+*.wav
+*.json
+*.srt
+*.txt
+
+# Ignore compiled Python files and cache
+__pycache__/
+*.py[cod]
+
+# Ignore binary output files
+*.mp4
+*.avi
+*.mov
+*.flv
+*.mp3
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore logs
+*.log
+
+# Ignore system and IDE-specific files
+.DS_Store
+Thumbs.db
+.vscode/
